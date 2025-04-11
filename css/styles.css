@@ -623,6 +623,8 @@ button {
 
 .our-team-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -698,10 +700,9 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  /* .our-team .container {
-  
+  .our-team .container {
     width: 584px;
-  } */
+  }
 
   .our-team-list {
     flex-direction: row;
@@ -714,6 +715,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .our-team .container {
+    width: 1158px;
+  }
+
   /* .container .our-team .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -725,6 +730,7 @@ button {
   }
 
   .our-team-list {
+    display: flex;
     flex-wrap: nowrap;
   }
 
