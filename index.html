@@ -59,8 +59,8 @@
           </svg>
         </button>
 
-        <div class="mobile-menu" data-menu>
-          <div class="container mobile-menu-container" data-modal-close>
+        <div class="mobile-menu" data-modal-menu>
+          <div class="container mobile-menu-container">
             <button
               class="mobile-menu-close"
               data-menu-close
@@ -773,10 +773,10 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer-page hidden">
+    <footer class="footer-page">
       <div class="container content">
         <div class="footer-page-studio">
-          <a class="footer-logo" href="./index.html"
+          <a class="footer-logo logo-centr" href="./index.html"
             >Web<span class="logo-part">Studio</span>
           </a>
           <p class="footer-text">
@@ -860,7 +860,7 @@
     </footer>
 
     <!-- modal-window -->
-    <div class="modal-window hidden" data-modal>
+    <div class="modal-window" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close>
           <svg class="modal-button-icons" width="8" height="8">
@@ -945,15 +945,17 @@
                     href="./images/icons.svg#icon-Vektor-1"
                   ></use></svg
               ></span>
-              I accept the terms and conditions of the
-              <a class="modal-privacy-link" href="">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="modal-privacy-link" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="modal-form-button">Send</button>
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
